@@ -11,18 +11,24 @@
         android:id="@+id/dbsTextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DBS" />
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="60dp"
+        android:text="@string/dbs" />
 
     <TextView
         android:id="@+id/ocbcTextview"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OCBC" />
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="60dp"
+        android:text="@string/ocbc" />
 
     <TextView
         android:id="@+id/uobTextview"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="UOB" />
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="60dp"
+        android:text="@string/uob" />
 
 </LinearLayout>
